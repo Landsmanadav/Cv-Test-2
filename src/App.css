@@ -4,10 +4,23 @@
 }
 
 .App {
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
+
+
 }
+
+.header {
+
+  z-index: 1000;
+}
+
+/* .main {
+  margin-top: 4rem;
+  position: relative;
+  overflow-y: scroll;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -43,4 +56,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  list-style: none;
+  /* margin-bottom: 20px; */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.css-o69gx8-MuiCardMedia-root {
+  width: 50% !important;
+  margin-left: 25% !important;
 }
