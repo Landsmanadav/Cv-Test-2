@@ -4,6 +4,6 @@
 
 React, Node.js.
 
-- Tailwind
-- Mui React
-- Framer Moition
+- Tailwind.
+- Mui React.
+- Framer Moition.
